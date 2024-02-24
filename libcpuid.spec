@@ -5,7 +5,7 @@ Summary:        Provides CPU identification for x86
 License:        BSD
 URL:            https://github.com/anrieff/libcpuid
 Source0:        https://github.com/anrieff/libcpuid/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
-ExcludeArch:    aarch64 %arm ppc64le ppc64 s390x
+ExcludeArch:    %arm ppc64le ppc64 s390x
 
 BuildRequires:  automake
 BuildRequires:  autoconf
